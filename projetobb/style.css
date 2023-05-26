@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  #header {
+    background: #0f012b;
+    color: #ffffff;
+    padding: 30px;
+    text-align: left;
+    text-align: left; /* Alinha o conteúdo à direita */
+    margin: 5px;
+    margin-right: -23px; /* Adiciona espaçamento à direita */
+    margin-left: -23px; /* Adiciona espaçamento à direita */
+    margin-top: -10px; /* Adiciona espaçamento à direita */
+  }
+  
+
+  #search-form {
+    text-align: center; /* Alinha o conteúdo à direita */
+    margin: 5px;
+    
+  }
+
+  #search-form input[type="submit" ] {
+    padding: 6px 7px;
+    font-size: 8x;
+    background:  #0f012b;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    float: right; /* Flutua o botão de envio para a direita */
+    margin-top: -29px; /* Adiciona uma margem superior negativa */
+    margin-right: 7px;
+  }
+  
+  #search-form input[type="text"] {
+    width: 300px;
+    height: 30px;
+    padding: 4px;
+    font-size: 16px;
+    float: right; /* Flutua o campo de texto para a direita */
+    margin-top: -29px; /* Adiciona uma margem à direita */
+    margin-right: 10px;
+  }
+  
+  
+
+  
+  #results {
+    margin: 20px auto;
+    color: #ffffff;
+    width: 800px;
+    border: 1px solid #ffffff;
+  }
+  
+  .hotel {
+    background: #0f012b;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  
